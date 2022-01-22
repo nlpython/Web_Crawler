@@ -10,4 +10,4 @@ print(json_str)
 
 # python数据写到json文件中
 with open('data.json', 'w') as f:
-    json.dump(rs, f, ensure_ascii=Falsej)
+    json.dump(rs, f, ensure_ascii=False)
